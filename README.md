@@ -13,7 +13,7 @@
 </p>
 
 <!-- COLORDETECTION RASPBERRYPI PYTHON -->
-# ColorDetection In RaspberryPi Using Python
+# FaceRecognition In RaspberryPi Using Python
 
 <!-- TABLE OF CONTENTS -->
 <details open="open">
