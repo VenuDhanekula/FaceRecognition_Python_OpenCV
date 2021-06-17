@@ -47,15 +47,15 @@ Steps To Be Followed
 
 * First, Run the createDataset python file which will help to create the Images of the respective face with an id.
   ```sh
-   File Name: 1.CreateDataset.py
+   python 1.CreateDataset.py
    ```
 * Secondly, Run the trainDataset python file which will help to train all the faces with respective to an id's initialized.
   ```sh
-   File Name: 2.trainDataset.py
+   python 2.trainDataset.py
    ```
 * Finally, Run the recognizeData python file which will help to recognize the face in the Images with the help of id's that are assigned.
   ```sh
-   File Name: 3.recognizeData.py
+   python 3.recognizeData.py
    ```
 
 
@@ -63,7 +63,7 @@ Output
 
 * Here is the output GIF file on running the 1.CreateDataset.py below.
 
-For a greater accuracy change the below code. This helps to create the dataset with more images so that it helps the trainer to train with more accuracy.
+For a greater accuracy change the below code. This helps to create the dataset with more images so that it helps the trainer to train with more accuracy (Example shown below).
 
    ```sh
    elif count >= 30: 
@@ -85,7 +85,16 @@ For a greater accuracy change the below code. This helps to create the dataset w
     <img src="Images/trainDataset.gif" width="33%">
   </a> 
   
-* Here is the output GIF file on running the 3.recognizeData.py below.
+* Here is the output GIF file on running the 3.recognizeData.py below. Change the name of the person to the respective name of the trained model (Example shown below). ID should be matched with the ID given while creating the Dataset (i.e., in 1.createDataset.py file).
+
+  ```sh
+  # names related to ids: example ==> None: id=0, NameOfthePerson: id=1, X: id=2, etc
+  names = ['None', 'NameOfthePerson', 'X', 'Y', 'Z']
+   ```
+   
+   ```sh
+  names = ['None', 'VenuDhanekula', 'X', 'Y', 'Z']
+   ```
 
   <a >
     <img src="Images/recognoizeData.gif" width="70%">
