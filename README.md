@@ -43,8 +43,20 @@
 <!-- ABOUT THE PROJECT -->
 ## Project Details
 
-Single Color Detection
-* Below image gives the output information of the Single Color Detection code provided in the above folder. Color will be detected and made a border and lable around. It will also make the mask on the immage and also shows the color on the image.
+Steps To Be Followed
+
+* First, Run the createDataset python file which will help to create the Images of the respective face with an id.
+  ```sh
+   File Name: 1.CreateDataset.py
+   ```
+* Secondly, Run the trainDataset python file which will help to train all the faces with respective to an id's initialized.
+  ```sh
+   File Name: 2.trainDataset.py
+   ```
+* Finally, Run the recognizeData python file which will help to recognize the face in the Images with the help of id's that are assigned.
+  ```sh
+   File Name: 3.recognizeData.py
+   ```
 
   <a >
     <img src="Images/SingleColorDetection.png" alt="singleColorDetection" width="100%">
