@@ -13,7 +13,7 @@ font = cv2.FONT_HERSHEY_SIMPLEX
 #iniciate id counter
 id = 0
 # names related to ids: example ==> VenuDhanekula: id=1, X: id=2, etc
-names = ['None', 'VenuAbhi', 'X', 'Y', 'Z']
+names = ['None', 'NameOfthePerson', 'X', 'Y', 'Z']
 
 # Initialize and start realtime video capture
 cam = cv2.VideoCapture(0)
