@@ -58,17 +58,14 @@ Steps To Be Followed
    File Name: 3.recognizeData.py
    ```
 
+
+Output
+
+* Here is the output GIF file on running the 1.CreateDataset.py below.
   <a >
-    <img src="Images/SingleColorDetection.png" alt="singleColorDetection" width="100%">
+    <img src="Images/SingleColorDetection.png" alt="singleColorDetection" width="60%">
   </a> 
   
-Multiple Color Detection
-* Below image gives the output information of the Multiple Color Detection code provided in the above folder. Colors will be detected and made a border and lable around.
-
-  <a >
-    <img src="Images/MultipleColorDetection.png" alt="singleColorDetection" width="33%">
-  </a> 
-
 
 
 ### Built With
