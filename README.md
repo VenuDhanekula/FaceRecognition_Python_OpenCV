@@ -62,8 +62,33 @@ Steps To Be Followed
 Output
 
 * Here is the output GIF file on running the 1.CreateDataset.py below.
+
+For a greater accuracy change the below code. This helps to create the dataset with more images so that it helps the trainer to train with more accuracy.
+
+   ```sh
+   elif count >= 30: 
+      break
+   ```
+
+  ```sh
+   elif count >= 100: # Any greater number 
+      break
+   ```
+
   <a >
-    <img src="Images/SingleColorDetection.png" alt="singleColorDetection" width="60%">
+    <img src="Images/createData.gif" width="70%">
+  </a> 
+  
+* Here is the output GIF file on running the 2.trainDataset.py below.
+
+  <a >
+    <img src="Images/trainDataset.gif" width="33%">
+  </a> 
+  
+* Here is the output GIF file on running the 3.recognizeData.py below.
+
+  <a >
+    <img src="Images/recognoizeData.gif" width="70%">
   </a> 
   
 
