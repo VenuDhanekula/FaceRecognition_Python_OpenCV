@@ -62,22 +62,21 @@ Steps To Be Followed
 Output
 
 * Here is the output GIF file on running the 1.CreateDataset.py below.
+* For a greater accuracy change the below code. This helps to create the dataset with more images so that it helps the trainer to train with more accuracy (Example shown below).
 
-For a greater accuracy change the below code. This helps to create the dataset with more images so that it helps the trainer to train with more accuracy (Example shown below).
+     ```sh
+     elif count >= 30: 
+        break
+     ```
 
-   ```sh
-   elif count >= 30: 
-      break
-   ```
+    ```sh
+    elif count >= 100: # Any greater number 
+       break
+     ```
 
-  ```sh
-   elif count >= 100: # Any greater number 
-      break
-   ```
-
-  <a >
-    <img src="Images/createData.gif" width="70%">
-  </a> 
+    <a >
+      <img src="Images/createData.gif" width="70%">
+    </a> 
   
 * Here is the output GIF file on running the 2.trainDataset.py below.
 
